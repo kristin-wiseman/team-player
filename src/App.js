@@ -1,15 +1,16 @@
-
 import './App.css';
+
+import Header from './Header';
+import Content from './Content';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Content />
+      <Footer />
+    </>
   );
 }
 
